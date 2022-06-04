@@ -15,7 +15,7 @@ const printCards = () => {
               <p class="card-text">because its smells</p>
               <hr>
               
-              <a href="#" class="btn btn-primary">Done</a>
+              <a href="#" class="btn btn-danger">Done</a>
             </div>
           </div>`;
         });
