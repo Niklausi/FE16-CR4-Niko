@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+            <span class="navbar-toggler-icon" ></span>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">MyPlanner</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tasks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Settings</a>
+          </li>
+        </ul>
+    </nav>
+    <div class="container-fluid d-flex justify-content-center align-items-center hero">
+           <div class="weekpl d-flex justify-content-center align-items-center">Weekly planner</div>
+    </div>
+    
+    <div class="container content">
+        <div class="row g-5 container-duties">
+         
+          <!-- 
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="card" style="width:250px">
+                <img class="card-img-top" src="https://media.istockphoto.com/photos/happy-dog-running-picture-id1372328440?k=20&m=1372328440&s=612x612&w=0&h=vKLjkv7EkM_IwWWz4vX1AnuVFDTgMtyt1CIHPa4lyi8=" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                  <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="card" style="width:250px">
+                <img class="card-img-top" src="https://media.istockphoto.com/photos/pflanzen-im-hochbeet-picture-id1398530474?b=1&k=20&m=1398530474&s=170667a&w=0&h=QBpYPukDa8Hk0BQwc71kk-TGvHaUv8twmnfXbOu_YVk=" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                  <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="card" style="width:250px">
+                <img class="card-img-top" src="https://media.istockphoto.com/photos/top-views-calendar-desk-july-is-the-month-for-organizers-to-plan-and-picture-id1400061886?b=1&k=20&m=1400061886&s=170667a&w=0&h=eno0W2Y2p-poKMgBFOdPpaeY-pk5NwIqWQ9H-KFS_N8=" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                  <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="card" style="width:250px">
+                <img class="card-img-top" src="https://media.istockphoto.com/photos/top-views-calendar-desk-july-is-the-month-for-organizers-to-plan-and-picture-id1400061886?b=1&k=20&m=1400061886&s=170667a&w=0&h=eno0W2Y2p-poKMgBFOdPpaeY-pk5NwIqWQ9H-KFS_N8=" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                  <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="card" style="width:250px">
+                <img class="card-img-top" src="https://media.istockphoto.com/photos/different-garbage-cans-for-recycling-in-a-kitchen-picture-id1340561022?b=1&k=20&m=1340561022&s=170667a&w=0&h=6kG-TA5mQNwYeJp0PlpiCZmErZoaZlYj80apXnsNphA=" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                  <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="card" style="width:250px">
+                <img class="card-img-top" src="https://media.istockphoto.com/photos/top-views-calendar-desk-july-is-the-month-for-organizers-to-plan-and-picture-id1400061886?b=1&k=20&m=1400061886&s=170667a&w=0&h=eno0W2Y2p-poKMgBFOdPpaeY-pk5NwIqWQ9H-KFS_N8=" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                  <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="card" style="width:250px">
+                <img class="card-img-top" src="https://media.istockphoto.com/photos/different-garbage-cans-for-recycling-in-a-kitchen-picture-id1340561022?b=1&k=20&m=1340561022&s=170667a&w=0&h=6kG-TA5mQNwYeJp0PlpiCZmErZoaZlYj80apXnsNphA=" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                  <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="card" style="width:250px">
+                <img class="card-img-top" src="https://media.istockphoto.com/photos/top-views-calendar-desk-july-is-the-month-for-organizers-to-plan-and-picture-id1400061886?b=1&k=20&m=1400061886&s=170667a&w=0&h=eno0W2Y2p-poKMgBFOdPpaeY-pk5NwIqWQ9H-KFS_N8=" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                  <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+              </div>
+          </div>-->
+        </div>
+      </div>
+      
+      <footer class="container-fluid bg-dark">
+            <div class="col-12 col-md-12 col-xl-12 d-inline-flex icons justify-content-center"><img src="icons/facebook-5-32.png" alt=""><img src="icons/github-10-32.png" alt=""><img src="icons/instagram-32.png" alt="">
+            <img src="icons/twitter-3-32.png" alt="">
+            </div><br>
+            <div class="col-12 col-md-12 col-xl-12 newsletter">Sign up for our newsletter<input class="inputnews" type="text"> 
+            </div><br>
+            <div class="col-12 col-md-12 col-xl-12 copyr d-flex justify-content-center align-items-end"><p> C 2022 Copyright: Niko</p>
+            </div>
+            
+        </footer>
+    <script src="duties.json"></script>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+$background-color: black;
+.navbar {
+    color: white;
+}
+.hero {
+    height: 300px;
+    background-image: url(https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d29ya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.weekpl {
+    height: 150px;
+    width: 300px;
+    background-color: $background-color;
+    opacity: 0.6;
+    border-radius: 50px 20px;
+}
+.content {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+footer {
+    color: white;
+    font-size: 10px;
+    height: 150px;  
+}
+footer img {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.inputnews {
+    height: 25px;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.btn {
+    height: 40px;
+    width: 80px;
+}
+.icons {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+.newsletter {
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
