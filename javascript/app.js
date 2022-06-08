@@ -8,7 +8,7 @@ const listContainer = document.querySelector(".container-duties");
 const printCards = () => {
         dutiesList.forEach((duties) => {
             listContainer.innerHTML += `
-            <div class="card col-12 col-md-6 col-xl-4" style="width:250px">
+            <div class="card col-12 col-md-6 col-lg-4" style="width:200px">
             <img class="card-img-top" src="${duties.image}" alt="Card image" style="width:100%">
             <div class="card-body">
               <h4 class="card-title">${duties.name}</h4>
@@ -18,9 +18,7 @@ const printCards = () => {
               <a href="#" class="btn btn-danger">Done</a>
             </div>
           </div>`;
-        });
-        
-        
+        });    
 };
 const increaseLikes = () => {
     const likeBtn =document.querySelector(".btn");
