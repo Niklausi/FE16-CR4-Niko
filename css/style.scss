@@ -18,9 +18,28 @@ $background-color: black;
     opacity: 0.6;
     border-radius: 50px 20px;
 }
+.wt {
+    font-weight: bold;
+}
 .content {
     margin-bottom: 40px;
     margin-top: 40px;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.donebtn {
+    background-color: green;
+    border: 0;
+    margin-bottom: 4px;
+    border-radius: 25px;
+}
+.delbtn {
+    background-color: red;
+    border: 0;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    border-radius: 25px;
+
 }
 footer {
     color: white;
@@ -40,8 +59,8 @@ footer img {
 
 }
 .btn {
-    height: 40px;
-    width: 80px;
+    height: 35px;
+    width: 60px;
 }
 .icons {
     height: 30px;
